@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("#div1").fadeToggle();
+      $("#div2").fadeToggle("slow");
+      $("#div3").fadeToggle(300);
+    });
+  });
+  </script>
+</head>
+<body bgcolor="grey">
+
+<p>Demonstrate fadeIn with different parameters.</p>
+
+<button>show</button><br><br>
+
+<div id="div1" style="width: 200px;px;height:200px;display:none;background-color:red;"> <img src="wow-very-dangerous-wow-berry-dangerous.gif" height="200px" width="200px" ></div><br>
+<div id="div2" style="width: 200px;px;height:200px;display:none;background-color:green;"> <img src="shinchan-dance-shinchan.gif" height="200px" width="200px" ></div><br>
+<div id="div3" style="width: 200px;px;height:200px;display:none;background-color:blue;"> <img src="samaj-rahe-ho-samaj.gif" height="200px" width="200px" ></div>
+ 
+<button>hide</button>
+
+</body>
+</html>
